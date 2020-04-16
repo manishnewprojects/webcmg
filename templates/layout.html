@@ -1,0 +1,98 @@
+<!-- Copyright (C) 2020, WebCMG, Inc.   -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+
+  <!-- Basic Page Needs -->
+
+  <meta charset="utf-8">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta name="author" content="{{author}}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/ico" href="{{ url_for('static', filename='images/favicon.ico') }}">
+
+
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <!-- Meta TAGS -->
+
+  <meta property="og:title" content="WebCMG">
+  <meta property="og:site_name" content="webcmg.com">
+  <meta property="og:url" content="https://webcmg.com">
+  <meta property="og:description" content="Website creation, management and growth services for small businesses">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://manishvaidya.com/static/images/logo/webcmg_logo.png">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <!-- Hotjar Tracking Code for https://webcmg.com -->
+
+  <!-- Sharethis widget -->
+
+
+  <!-- CSS Files -->
+
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='fonts/icomoon/style.css') }}">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/bootstrap.min.css') }}">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/jquery-ui.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/owl.carousel.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/owl.theme.default.min.css') }}">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/jquery.fancybox.min.css') }}">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+
+   <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='fonts/flaticon/font/flaticon.css') }}">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+  <!-- Local CSS Files -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/mv_css_defines.css') }}">
+
+
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
+
+ 
+
+
+ 
+  <!-- Local JS --> 
+   
+
+
+
+</head>
+
+<body>
+
+ <!-- All functional HTML -->
+
+
+    {% include "navbar.html" %}
+
+    {% block content %} {% endblock %}
+     
+    {% include "footer.html" %}
+
+    {% include "ender.html" %}
+
+
+
+    
+</body>
+ 
+</html>

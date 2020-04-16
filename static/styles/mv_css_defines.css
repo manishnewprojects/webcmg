@@ -1,0 +1,30 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (https://startbootstrap.com/template-overviews/3-col-portfolio)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
+ */
+ 
+
+.mv_responsive_nav_logo_cmg {
+     height:auto;
+       width: 90%;
+    border-style: none;
+    align-content: center;
+      
+  }
+ 
+
+/* Any adjustments for large displays go here */
+@media (min-width: 800px) {
+    .mv_nav_items {
+    font-size: 50px;
+    line-height: 60px; 
+    }
+    .mv_responsive_nav_logo_cmg {
+      width: 140%;
+       
+    }
+    .show_on_mobile {
+      display: none;
+    }
+} 
