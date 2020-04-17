@@ -25,12 +25,15 @@ def contact():
                            description="Website creation, management & growth services",
                            author="WEbCMG, Inc., Los Gatos, CA, USA")
 
-# @app.route('/layout/<dest>', methods=["GET", "POST"])
-# def layout(dest):
-#    return render_template('layout.html',
-#                           title=dest,
-#                           dest=dest,
-#                          description="Travel blogs, tips and advice for " + dest)
+@app.route('/experts_dir/<expert>', methods=["GET", "POST"])
+def experts(expert):
+    return render_template('experts_dir.html',
+                           expert=expert,
+                          title="WebCMG",
+                           description="Website creation, management & growth services",
+                           author="WEbCMG, Inc., Los Gatos, CA, USA")
+
+ 
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
