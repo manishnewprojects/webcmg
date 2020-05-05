@@ -1,0 +1,4 @@
+#!"/Users/newprojects/Google Drive/newprojects_CodeDirectories/WebCMG/webcmg_venv/bin/python3.7"
+# EASY-INSTALL-SCRIPT: 'lamson==1.3.4','lamson'
+__requires__ = 'lamson==1.3.4'
+__import__('pkg_resources').run_script('lamson==1.3.4', 'lamson')

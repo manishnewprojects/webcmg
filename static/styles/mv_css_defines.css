@@ -28,3 +28,11 @@
       display: none;
     }
 } 
+
+
+/* Message flashing */
+.flash {
+  background-color: #FBB0B0;
+  padding: 10px;
+  width: 400px;
+}
